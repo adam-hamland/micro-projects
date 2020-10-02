@@ -1,0 +1,42 @@
+<!-- This simple todo list using vue.js is largely derived from coding garden on YouTube 
+https://www.youtube.com/watch?v=-X2hP9pOVss
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Vue App</title>
+    <style>
+        .done {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <main id="app">
+        <h3>{{title}}</h3>
+        <form @submit.prevent="addTodo">
+            <label for="newTodo">New Todo</label>
+            <input v-model="newTodo" type="text" name="newTodo" id="newTodo" value="">
+            <button type="submit" name="button">Add</button>
+        </form>
+        <ul>
+            <button @click="allDone" type="button" name="button">Mark all as done</button>
+            <li v-for="todo in todos">
+                <input type="checkbox" v-model="todo.done">
+                <a :class="{done: todo.done}">{{todo.title}}</a> 
+                <button @click="rm(todo)">Delete</button>
+            </li>
+        </ul>
+       
+        <button @click="rmAll" type="button" name="button">Delete all</button>
+        
+        
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
