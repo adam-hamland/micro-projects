@@ -7,8 +7,8 @@ Projects include: coding exercises, scripts, websites, or applications.
 ### Python
 - [Calcualtor CLI](https://github.com/adam-hamland/micro-projects/tree/main/python_calc_cli)
 
-JavaScript and DHTML
+### JavaScript and DHTML
 
-C++
+### C++
 
-C
+### C
