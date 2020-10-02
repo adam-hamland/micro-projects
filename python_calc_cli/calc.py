@@ -29,7 +29,7 @@ def help():
 
 #Main calculator function----------------------------------
 def calc():
-    #Flag to exit shell
+    #Flag to exit calculator
     stop = False
 
     #Var that holds result of previous command
@@ -50,19 +50,23 @@ def calc():
 
         #Expand parameters and create numbers lists
         numbers = []
+        
+        #Wrapped in a try, except block to catch all invalid input
         try:
+            #Loop over arguments
             for el in args:
                 #Expand prev
                 if el == "prev":
                     if prev != None:
                         numbers.append(prev)
+                    #If prev is empty just skip it
                     else:
                         continue
-                #Else add number to numbers list
+                #Otherwise add number to numbers list
                 else:
                     numbers.append(float(el))
         except:
-            print("ERROR: Invalid Argument")
+            print("ERROR: Invalid Argument(s)")
             continue
         
         #Quit calc command
@@ -70,11 +74,11 @@ def calc():
             stop = True
             break
 
-        #Help calc command
+        #Help command
         elif cmd == "help" or cmd == "h":
             help()
 
-        #prev command
+        #Previous command
         elif cmd == "prev":
             print(prev)
 
@@ -82,7 +86,7 @@ def calc():
         elif cmd == "add":
             sum = numbers[0]
 
-            #add up all numbers
+            #Add up all numbers
             for i in range(1, len(numbers)):
                 sum += numbers[i]
 
@@ -116,12 +120,20 @@ def calc():
            
 #Calculator================================================
 #First print greeting
-print("Python CLI Calculator")
+print()
+print("______      _   _                   _____  _     _____   _____       _            _       _             ")
+print("| ___ \    | | | |                 /  __ \| |   |_   _| /  __ \     | |          | |     | |            ")
+print("| |_/ /   _| |_| |__   ___  _ __   | /  \/| |     | |   | /  \/ __ _| | ___ _   _| | __ _| |_ ___  _ __ ")
+print("|  __/ | | | __| '_ \ / _ \| '_ \  | |    | |     | |   | |    / _` | |/ __| | | | |/ _` | __/ _ \| '__|")
+print("| |  | |_| | |_| | | | (_) | | | | | \__/\| |_____| |_  | \__/\ (_| | | (__| |_| | | (_| | || (_) | |   ")
+print("\_|   \__, |\__|_| |_|\___/|_| |_|  \____/\_____/\___/   \____/\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|   ")
+print("       __/ |                                                                                            ")
+print("      |___/                                                                                             ")
 print()
 
 #Print help message
 print("Enter 'help' for instructions")
 print()
 
-#Start the shell
+#Start the calculator
 calc()
