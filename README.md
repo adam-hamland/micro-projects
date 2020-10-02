@@ -1,5 +1,5 @@
 # micro-projects
-Collection of very small and simple scripts, websites, or applications.
+Collection of small and simple coding exercises, scripts, websites, or applications.
 
 Python
 
