@@ -2,4 +2,4 @@
 
 ## Implemented in Python
 
-Do basic math from the comfort of the command line.
+Do basic math from the comfort of your command line.
