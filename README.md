@@ -1,7 +1,7 @@
 # Micro Projects
 Collection of small and simple projects.  
 Projects include: coding exercises, scripts, websites, and applications.  
-The starred projects are the ones I am most proud of.
+The ⭐ projects are the ones I am most proud of.
 
 ## Languages
 
