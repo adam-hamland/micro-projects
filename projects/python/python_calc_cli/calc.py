@@ -14,7 +14,7 @@ def help():
     print("* ==Keywords")
     print("* prev - the last computed value")
     print("*")
-    print("* ==Exampled")
+    print("* ==Examples")
     print("* calc~ add 12 8")
     print("* 20")
     print("* calc~ add prev 10")
