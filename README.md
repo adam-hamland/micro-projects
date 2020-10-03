@@ -7,7 +7,7 @@ Projects include: coding exercises, scripts, websites, and applications.
 ### Python
 
 Applications:
-- [Calcualtor CLI](https://github.com/adam-hamland/micro-projects/tree/main/python_calc_cli)
+- [Calcualtor CLI](https://github.com/adam-hamland/micro-projects/tree/main/python_calc_cli)⭐
 
 Coding Exercises:
 - [Decorators](https://github.com/adam-hamland/micro-projects/tree/main/projects/python/decorators)
