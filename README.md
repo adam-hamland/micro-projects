@@ -8,7 +8,7 @@ The ⭐ projects are the ones I am most proud of.
 ### Python
 
 Applications:
-- [Calcualtor CLI](https://github.com/adam-hamland/micro-projects/tree/main/python_calc_cli)⭐
+- [Calcualtor CLI](https://github.com/adam-hamland/micro-projects/tree/main/projects/python/python_calc_cli)⭐
 
 Coding Exercises:
 - [Decorators](https://github.com/adam-hamland/micro-projects/tree/main/projects/python/decorators)
