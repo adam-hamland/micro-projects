@@ -14,7 +14,7 @@ Coding Exercises:
 
 ### JavaScript and DHTML
 
-Vue.js
+Applications:
 - [Simple Vue.js Todo List](https://github.com/adam-hamland/micro-projects/tree/main/projects/dhtml/vue/simple_todo)
 - [Vue.js Todo List](https://github.com/adam-hamland/micro-projects/tree/main/projects/dhtml/vue/todo)
 
