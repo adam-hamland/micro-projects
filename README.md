@@ -20,4 +20,7 @@ Applications:
 
 ### C++
 
+Coding Exercises:
+-[Data Structures](https://github.com/adam-hamland/micro-projects/tree/main/projects/cpp/data_structures)
+
 ### C
