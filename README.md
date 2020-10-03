@@ -1,6 +1,6 @@
 # Micro Projects
 Collection of small and simple projects.
-Projects include: coding exercises, scripts, websites, or applications.
+Projects include: coding exercises, scripts, websites, and applications.
 
 ## Languages
 
