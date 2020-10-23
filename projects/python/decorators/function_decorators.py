@@ -42,3 +42,5 @@ def display_info(name, age):
 #Calling decorated functions
 # display()
 display_info("john", 32)
+print()
+display_info("jane", 29)
