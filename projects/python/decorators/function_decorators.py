@@ -41,5 +41,4 @@ def display_info(name, age):
 
 #Calling decorated functions
 # display()
-print() 
 display_info("john", 32)
